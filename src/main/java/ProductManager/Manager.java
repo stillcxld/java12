@@ -1,7 +1,7 @@
 package ProductManager;
 
 public class Manager {
-    Repository repository;
+    protected Repository repository;
 
     public Manager(Repository repository) {
         this.repository = repository;

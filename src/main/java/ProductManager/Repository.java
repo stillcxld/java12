@@ -1,6 +1,6 @@
 package ProductManager;
 
-public class Repository {
+class Repository {
     Product[] products = new Product[0];
 
     public Product[] findAll() {
